@@ -295,7 +295,7 @@ PS :
 
 2.	準備好github帳號，嘗試開發NPM套件
 
-編輯 client/imports/parties-list/parties-list.html 檔案，加入<login-buttons> 組件標籤 :
+編輯 client/imports/parties-list/parties-list.html 檔案，加入< login-buttons > 組件標籤 :
 
 <div>
 
@@ -308,6 +308,7 @@ PS :
     <li *ngFor="#party of parties"> 
     
 . . .
+
 
 編輯 client/imports/parties-list/parties-list.ts檔案，載入angular2-meteor-accounts-ui/login-buttons 組件 :
 
