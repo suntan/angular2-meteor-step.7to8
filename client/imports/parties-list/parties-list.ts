@@ -8,7 +8,7 @@ import {LoginButtons} from 'angular2-meteor-accounts-ui/login-buttons';
 @Component({
   selector: 'parties-list',
   templateUrl: '/client/imports/parties-list/parties-list.html',
-  directives: [PartiesForm, RouterLink,LoginButtons]
+  directives: [PartiesForm, RouterLink, LoginButtons]
 })
 export class PartiesList {
   parties: Mongo.Cursor<Party>;
@@ -21,3 +21,4 @@ export class PartiesList {
     Parties.remove(party._id);
   }
 }
+

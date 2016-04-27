@@ -1,18 +1,20 @@
 {
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "module": "commonjs",
     "target": "es5",
-    "isolatedModules": false,
+    "module": "commonjs",
     "moduleResolution": "node",
+    "sourceMap": true,
     "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": false,
-    "sourceMap": true
+    "noImplicitAny": false
   },
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
   "files": [
-    "typings/main.d.ts",
-    "typings/angular2-meteor/angular2-meteor.d.ts",
     "typings/party.d.ts"
   ]
 }
