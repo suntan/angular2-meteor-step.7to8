@@ -35,6 +35,8 @@ $ meteor add accounts-password
 
 $ meteor npm install --save angular2-meteor-accounts-ui
 
+$ typings install meteor (修正編譯時 Mongo、Meteor . . .Model Not Found 的錯誤訊息)
+
 
 用自己喜歡的 port 啟動(以下用1688為例)，輸入指令如下:
 
